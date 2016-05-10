@@ -1,5 +1,37 @@
-body 
-.hero{
-	background: url(IMG_5515 copy.JPG);
+body { 
+	color:rgb(014546);
+	background-color: 000.5
+	text-align: center;
+	
+}
+
+h1 {
+	color:#FF005D
+	text-align: center;
+	text-decoration: underline;
+}
+
+p {text-align: left;
+	font-family: Arial, san-serif
+
+}
+
+ul {
+
+}
+
+li {
+
+}
+
+img {text-align: center;
+	background: url("images/img_5515 copy.jpg");
 	background-size: cover
 }
+
+#slogan {
+	font-style: italic;
+	text-align: center;
+	font-weight: 666
+}
+
