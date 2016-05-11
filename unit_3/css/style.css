@@ -1,44 +1,24 @@
-title {
-	<hr>
-}
-
-
-
-
 body { 
-	color:rgb(014546);
-	background-color: 000.5
+	color:rgb(01,45,46);
+	background-image:url(../images/img_one.jpg);
+	background-size: cover;
 	text-align: center;
 
 }
 
 h1 {
-	color:#FF005D
+	color:#FF005D;
 	text-align: center;
 	text-decoration: underline;
 }
 
 p {text-align: left;
-	font-family: Arial, san-serif
-
-}
-
-ul {
-
-}
-
-li {
-
-}
-
-img {text-align: center;
-	background: url("images/img_5515 copy.jpg");
-	background-size: cover
+	font-family: Arial, san-serif;
 }
 
 #slogan {
 	font-style: italic;
 	text-align: center;
-	font-weight: 666
+	font-weight: 600;
 }
 
