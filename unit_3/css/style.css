@@ -1,6 +1,6 @@
 body { 
 	color:rgb(01,45,46);
-	background-image:url(../images/img_one.jpg);
+	background-image:url(../images/keyna_mtn_background.jpg);
 	background-size: cover;
 	text-align: center;
 
@@ -8,17 +8,51 @@ body {
 
 h1 {
 	color:#FF005D;
+	font-size: 35px;
+	font-family: Veranda, Arial;
+	font-weight: 200;
 	text-align: center;
 	text-decoration: underline;
 }
 
-p {text-align: left;
-	font-family: Arial, san-serif;
+#slogan {
+	font-size: 25px;
+	font-family: Veranda, Arial;
+	font-style: italic;
+	font-weight: 900;
+	text-align: center;
 }
 
-#slogan {
-	font-style: italic;
-	text-align: center;
-	font-weight: 600;
+
+h3 {
+	color: green;
+	font-size: 20px;
+	font-family: Veranda, Arial;
+	font-weight: 400;
+	text-align: left;
+	text-decoration: underline;
 }
+
+h4 {
+	color: red;
+	font-size: 15px;
+	font-family: Veranda, Arial;
+	font-weight: 400;
+	text-align: left;
+	text-decoration: underline;
+    list-style-type: none;
+}
+
+
+p {color:black;
+	font-size: 15px;
+	font-family: Veranda, Arial;
+	text-align: left;
+	
+}
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+
 
