@@ -1,15 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Arya);
+@import url(https://fonts.googleapis.com/css?family=Meddon);
+
 body { 
 	color:rgb(01,45,46);
 	background-image:url(../images/keyna_mtn_background.jpg);
 	background-size: cover;
 	text-align: center;
-
 }
 
 h1 {
 	color:#FF005D;
-	font-size: 35px;
-	font-family: Veranda, Arial;
+	font-size: 40px;
+	font-family: 'Arya', sans-serif; Veranda, Arial;
 	font-weight: 200;
 	text-align: center;
 	text-decoration: underline;
@@ -17,12 +19,11 @@ h1 {
 
 #slogan {
 	font-size: 25px;
-	font-family: Veranda, Arial;
+	font-family: 'Meddon', cursive; Veranda, Arial;
 	font-style: italic;
-	font-weight: 900;
+	font-weight: 100;
 	text-align: center;
 }
-
 
 h3 {
 	color: green;
