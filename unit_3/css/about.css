@@ -1,0 +1,15 @@
+body { 
+	color:rgb(01,45,46);
+	background-image:url(../images/kenya_mtn_background.jpg);
+	font-size: 16px; /*1em = 16;*/
+	background-size: cover;
+}
+
+h3 {
+	color:#FF005D;
+	font-size: 30px;
+	font-family: 'Comfortaa', cursive; sans-serif;
+	font-weight: 400;
+	text-align: center;
+	text-decoration: underline;
+}
