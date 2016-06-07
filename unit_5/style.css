@@ -1,103 +1,68 @@
-/*wipes out any default padding and margin in ANY html in user agent
-style sheet and compresses site and compress blocks*/
+@import url(https://fonts.googleapis.com/css?family=Didact+Gothic);
+@import url(https://fonts.googleapis.com/css?family=Sacramento);
+
+
 * {
 	padding: 0;
 	margin: 0;
 }
+/*wipes out any default padding and margin in ANY html in user agent
+style sheet and compresses site and compress blocks*/
 
-/*most of the site is the body*/
 body {
 	font-family: Arial, helvetica, sans-serif;
-	font-size: 16px;
+	font-size: 16px; /*1em =16px*/
 	color: #222222;
-	line-height: 1.3;
+	text-align: center;
 }
+/*most of the site is the body*/
 
 header {
 	background-color: #FF235D;
 	padding: 20px;
 }
 
+
 h1 {
 	color: white;
+	font-family: 'Didact Gothic', sans-serif;
+	text-align: center;
 }
 
-/*get rid of that blue/purple style when clicked
-*/
 
 a {
 	color: #FF235D;
 	text-decoration: none;
 }
-
+/*get rid of that blue/purple style when clicked
+*/
 
 nav a {
 	color: #6B7273;
 	font-style: italic;
 	margin: 20px; /*equal amount of space all around*/
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-@import url(https://fonts.googleapis.com/css?family=Didact+Gothic);
-h1 {
-	color:#FF005D;
-	font-size: 2.5em;
-	font-family: 'Didact Gothic', sans-serif;
-	font-weight: 200;
 	text-align: center;
-	text-decoration: underline;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Sacramento);
+img {
+	width: 100%;
+}
+/*sizes image to be 100% responsive
+*/
 h2 {
-	font-size: 2.2em;
 	font-family: 'Sacramento', cursive;
+	text-align: center;
 	font-style: italic;
 	font-weight: 100;
-	text-align: center;
-	color: black;
+	font-size: 2.2em;
 }
 
-
-nav {
-	font-family: Veranda, Arial;
-	color: #FF005D; 
-	text-transform: uppercase;
-	font font-weight: 600;
-	padding: 10px;
-	margin: 20px;
-/*	padding-top: 10px; 
-	padding-right: 10px; 
-	padding-bottom:10px; 
-	padding-left:10px; */
-/*	margin-right: 30px;
-*//*}
-	body { 
-	color:rgb(01,45,46);
-	font-size: 16px; /*1em = 16px*/
-/*
 p {
-	color:black;
-	font-size: 1em;
-	font-family: Veranda, Arial;
-	text-align: left;
-	width: 482px;
-}*/
-/*
-footer {
-
 
 }
-*/*/
-*/
+
+footer {
+	background-color: #FF235D;
+	padding: 20px;
+	text-align: center;
+}
