@@ -9,6 +9,12 @@
 /*wipes out any default padding and margin in ANY html in user agent
 style sheet and compresses site and compress blocks*/
 
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
 body {
 	font-family: Arial, helvetica, sans-serif;
 	font-size: 16px; /*1em =16px*/
@@ -18,7 +24,8 @@ body {
 /*most of the site is the body*/
 
 header {
-	background-color: #C51E72;
+	background-color: #FFED74;
+	border: 1px black solid;
 	padding: 20px;
 }
 
@@ -41,10 +48,22 @@ a {
 */
 
 nav a {
-	color: #4F4F4F;
+
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+/*}
+	color: #E8C66A;
 	font-style: italic;
-	margin: 20px; /*equal amount of space all around*/
+	margin: 20px; equal amount of space all around
 	text-align: center;
+}*/
+
+article {
+	background-color: E89C6C;
+	border: 1px black solid;
+	padding: 20px;
 }
 
 img {
@@ -59,6 +78,12 @@ h2 {
 	font-weight: 100;
 	font-size: 2.2em;
 	color: #C51E72;
+}
+
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
 }
 
 p {
