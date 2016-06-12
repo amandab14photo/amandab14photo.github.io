@@ -9,7 +9,7 @@
 /*wipes out any default padding and margin in ANY html in user agent
 style sheet and compresses site and compress blocks*/
 
-section {
+div {
 	background-color: #FFE2B8;
 	border: 1px black solid;
 	padding: 20px;
@@ -48,8 +48,7 @@ a {
 */
 
 nav a {
-
-	background-color: #FFED74;
+	background-color: #E8C66A;
 	border: 1px black solid;
 	padding: 20px;
 }
@@ -61,14 +60,14 @@ nav a {
 }*/
 
 article {
-	background-color: E89C6C;
+	background-color: #E89C6C;
 	border: 1px black solid;
 	padding: 20px;
 }
 
-img {
+/*img {
 	width: 100%;
-}
+}*/
 /*sizes image to be 100% responsive
 */
 h2 {
@@ -86,16 +85,17 @@ aside {
 	padding: 20px;
 }
 
-p {
+/*p {
 
-}
+}*/
 
 ul {
 	list-style: none;
 }
 
 footer {
-	background-color: #C51E72;
+	background-color: #FF957E;
+	border: 1px black solid;
 	padding: 20px;
 	font-family: 'Didact Gothic', sans-serif;
 	text-align: center;
