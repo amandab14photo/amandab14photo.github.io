@@ -9,7 +9,7 @@
 /*wipes out any default padding and margin in ANY html in user agent
 style sheet and compresses site and compress blocks*/
 
-div {
+section {
 	background-color: #FFE2B8;
 	border: 1px black solid;
 	padding: 20px;
@@ -70,14 +70,14 @@ article {
 }*/
 /*sizes image to be 100% responsive
 */
-h2 {
+/*h2 {
 	font-family: 'Sacramento', cursive;
 	text-align: center;
 	font-style: italic;
 	font-weight: 100;
 	font-size: 2.2em;
 	color: #C51E72;
-}
+}*/
 
 aside {
 	background-color: #FFC675;
