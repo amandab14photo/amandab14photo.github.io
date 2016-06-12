@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Didact+Gothic);
+@import url(https://fonts.googleapis.com/css?family=Sacramento);
+
+* {
+	padding: 0;
+	margin: 0;
+}
+/*wipes out any default padding and margin in ANY html in user agent
+style sheet and compresses site and compress blocks*/
+
+body {
+	font-family: Arial, helvetica, sans-serif;
+	font-size: 16px; /*1em =16px*/
+	color: #222222;
+	text-align: center;
+}
+/*most of the site is the body*/
+
+header {
+	background-color: #A60857;
+	padding: 20px;
+}
+
+/*header is my digestiable chunck to style together
+*/
+h1 {
+	color: white;
+	font-family: 'Didact Gothic', sans-serif;
+	text-align: center;
+	padding: 10px
+	;
+}
+
+
+a {
+	color: #A60857;
+	text-decoration: none;
+}
+/*get rid of that blue/purple style when clicked
+*/
+
+nav a {
+	color: #A60857;
+	font-style: italic;
+	margin: 20px; /*equal amount of space all around*/
+	text-align: center;
+}
+
+img {
+	width: 100%;
+}
+/*sizes image to be 100% responsive
+*/
+h2 {
+	font-family: 'Sacramento', cursive;
+	text-align: center;
+	font-style: italic;
+	font-weight: 100;
+	font-size: 2.2em;
+}
+
+p {
+
+}
+
+footer {
+	background-color: #A60857;
+	padding: 20px;
+	text-align: center;
+	color: white;
+}
